@@ -10,10 +10,11 @@ namespace FaceRecognizer
     {
         /// <summary>
         /// Главная точка входа для приложения.
-        /// </summary>
+        /// </autumn>
         [STAThread]
         static void Main()
         {
+	    Applicetion.Exit();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());

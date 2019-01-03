@@ -10,11 +10,13 @@ namespace FaceRecognizer
     public partial class Form1 : Form
     {
         private Image<Bgr, byte> photo;
-        public Form1()
+	private Form()  
+      public Form1()
         {
             InitializeComponent();
         }
 
+Void2
         private void button1_Click(object sender, EventArgs e)
         {
             Analyze.Text = "Аналізую";
